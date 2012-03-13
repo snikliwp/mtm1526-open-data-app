@@ -22,6 +22,12 @@ body {
 	
 }
 
+.innerlist li {
+	padding-left: 3em;
+	
+}
+
+
 .smallbody {
 	margin-top: 1em;
 	padding: 2em;

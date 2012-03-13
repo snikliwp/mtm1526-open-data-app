@@ -22,7 +22,7 @@
 		<div class="tab-group">
 			<div id="tab-1" class="page current">
 				<h2>Abstract</h2>
-				<p>For the mtm1526 open Data App, I intend to create a map of all the museums / community museums funded by the City of Ottawa. To create this map I will use the data information provided by the city of Ottawa through their Open Data Initiative.</p>
+				<p>For the mtm1526 open Data App, I intend to create a map of all the community gardens hosted by the City of Ottawa. To create this map I will use the data information provided by the city of Ottawa through their Open Data Initiative.</p>
 				<p>The data from the city will be loaded into a SQL database as a one-time load. There will be no effort to dynamically update the database at application load time; however, there will be the ability for an administrator to login to manage the existing entries, including the deletion or addition of entries into the database.</p>
 				<p>The primary application screen will provide an overarching map of the City of Ottawa and upon this map will be an icon for each of the entries in the database. Help information will be provided in a side panel of the application, along with a list of entries in the database cross referenced to the icons on the map. There will be the ability for the user to enter their current location and sort the data points by nearness to current location, name or rating. Once a user location is entered, a “you are here” icon will be added to the screen. There will be a zoom feature on the primary screen which will allow the user to limit the data points shown to a manageable subset of the complete set of entries. It has not been determined at this time if the map information will be provided through the Google map API’s or an internally stored map.</p>
 				<p>Selection of a data point either through the list or an icon will bring up an overlay screen which provides information about the selected data point 
@@ -33,9 +33,9 @@
 			<div id="tab-2" class="page">
 				<h2>Repositories</h2>
 				<ul class = "smlist">
-					<li>The github repository: <a href="https://github.com/snikliwp/open-data-app">https://github.com/snikliwp/open-data-app</a></li>
-					<li>The Project: <a href="http://museums.phpfogapp.com/">http://museums.phpfogapp.com/</a></li>
-					<li>The Dataset: <a href="http://ottawa.ca/online_services/opendata/info/museums_en.html">http://ottawa.ca/online_services/opendata/info/museums_en.html</a></li>
+					<li>The github repository: <a href="git@github.com:snikliwp/mtm1526-open-data-app.git">https://github.com/snikliwp/mtm1526-open-data-app</a></li>
+					<li>The Project: <a href="http://gardens.phpfogapp.com/">http://gardens.phpfogapp.com/</a></li>
+					<li>The Dataset: <a href="http://ottawa.ca/online_services/opendata/info/index_en.html#c">http://ottawa.ca/online_services/opendata/info/index_en.html#c</a></li>
 				</ul>
 			</div>
 			<div id="tab-3" class="page">
@@ -44,6 +44,11 @@
 				<ul class = "smlist">
 					<li>Main Map Screen</li>
 					<li>Admin Screen</li>
+						<ul class = "innerlist">
+							<li>Add a new garden</li>
+							<li>Edit a garden</li>
+							<li>Delete a garden</li>
+						</ul>
 					<li>Detail Screen</li>
 				</ul>
 			</div>
